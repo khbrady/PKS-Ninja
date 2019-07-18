@@ -163,7 +163,7 @@ Please proceed through the following steps while the OVA template is deploying
 </details>
 <br/>
 
-1.2.6 From the NSX Manager `Nodes > Hosts` page, change the value of `Managed by` to `vCenter-Compute-Manager`, expand the datacenter and each cluster and observe the details provided. Ensure the `Deployment Status` for each esxi host is `NSX Installed`, the controller and manager connectivity are `Up` and a transport node is defined for each host entry.
+1.2.6 From the NSX Manager `Fabric > Hosts` page, change the value of `Managed by` to `vCenter-Compute-Manager`, expand the datacenter and each cluster and observe the details provided. Ensure the `Deployment Status` for each esxi host is `NSX Installed`, the controller and manager connectivity are `Up` and a transport node is defined for each host entry.
 
 <details><summary>Screenshot 1.2.6.1 </summary>
 <img src="Images/2018-11-12-22-08-38.png">
