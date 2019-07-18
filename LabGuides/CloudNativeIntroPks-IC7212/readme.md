@@ -205,12 +205,12 @@ Once you are logged into docker hub, click the `Create Repository +` link, and c
 
 1.3.2 Resume your putty session with `cli-vm`, from the prompt, add a tag to your `custom-nginx-image` to prepare it for upload, and then push your image to the new repository you created on docker hub with the following commands:
 
-**Note: Be sure to replace the string `YourDockerhubUsername` in the command below with your docker hub username**
+**Note: Be sure to replace the string `YourDockerhubUsername` in the commands below with your docker hub username**
 
 ```bash
 docker tag custom-nginx-image YourDockerhubUsername/custom-nginx-image:v1
 docker login #follow the prompts to log into your docker account
-docker push afewell/custom-nginx-image:v1
+docker push YourDockerhubUsername/custom-nginx-image:v1
 ```
 
 <details><summary>Screenshot 1.3.2</summary>
