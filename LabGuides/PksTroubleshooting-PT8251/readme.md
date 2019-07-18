@@ -135,7 +135,7 @@ Please proceed through the following steps while the OVA template is deploying
 </details>
 <br/>
 
-1.2.2 Login to the NSX Manager UI and Navigate to the `Dashboard`. The dashboard makes it easy to identify any faults that NSX Manager is aware of and enable drilling down as needed by clicking on the displayed object
+1.2.2 Login to the NSX Manager UI using "admin" for username and "VMware1!" for thge passowrd and Navigate to the `Dashboard`. The dashboard makes it easy to identify any faults that NSX Manager is aware of and enable drilling down as needed by clicking on the displayed object
 
 <details><summary>Screenshot 1.2.2 </summary>
 <img src="Images/2018-11-12-21-53-43.png">
